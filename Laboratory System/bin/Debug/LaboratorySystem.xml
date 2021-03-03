@@ -1,0 +1,460 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LaboratorySystem
+</name>
+</assembly>
+<members>
+<member name="P:LaboratorySystem.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.addbtn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.addhover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.backbutton">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.background">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.backgroundfortextbox">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.backToSelectUserType">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.backToSelectUserType1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.blockstudent">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.border">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.border1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btn1Hover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btn1stTo3rdUpdate">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btn1stTo4thUpdate">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btn2Hover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btn3Hover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btn4Hover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btn4thYearDelete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btn5thYearDelete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnAddToRequestList">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnAddToRequestLists">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnback">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnbackhover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnCancelReq">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnCancelReqHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnChangepassword">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnCleared">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnClearedHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnConfirmPass">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnConfirmPassHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnConfirmRequest">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnConfirmRequestHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnDeleteMultipleHistory">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnDeleteMultipleHistoryHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnDeleteSingleHistory">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnDeleteSingleHistoryHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnHistory">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnLogin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnLoginbg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnLoginHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnNextForm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnNextForm1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnNextFormHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnPrint">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnPrintHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnProceedBeta">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnRequest">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnRequesthover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnReturnItems">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnReturnItemsHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnSchoolYear">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnSendreq">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnSendreqHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnSettle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnSettleHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnUpdateSY">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnUpdateSY1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnVoidRequest">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.btnVoidRequestHover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.bustudentmessage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.clearbtn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.clearhover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.deletebtn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.deletehover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.downTriangle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.exitbutton">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.footerLogo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.hoverbackbutton">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.inventoryicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.inventoryiconhover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.leftlabel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.leftwelcomebg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.managerequesticon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.managerequesticonhover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.qricon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.refreshicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.refreshicon1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.refreshicon2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.refreshiconhover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.returnrequesticon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.returnrequesticonhover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.rightlabel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.rightlabel2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.rmlocationbg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.scanqrcodebg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.scanqrcodebg1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.searchbar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.searchbarhover_png">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.searchbutton">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.searchbutton2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.stafficon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.staffloginicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.staffloginiconhover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.staffloginiconhover1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.studenticon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.studenticon1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.studentloginicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.studentloginicon1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.studentloginiconhover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.studentloginiconhover1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.studentloginiconhover2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.studentmessage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.textboxbackground">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.txtborder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.txtborder1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.txtborder2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.txtborder3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.updatebtn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.updatehover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LaboratorySystem.My.Resources.Resources.upTriangle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:LaboratorySystem.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
