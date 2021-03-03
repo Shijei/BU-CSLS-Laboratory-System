@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="updatebtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatebtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upTriangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upTriangle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qricon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qricon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightlabel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightlabel2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftwelcomebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftwelcomebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnDeleteMultipleHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnDeleteMultipleHistory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn1stTo3rdUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn1stTo3rdUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="footerLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\footerLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addbtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addbtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn5thYearDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn5thYearDelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnUpdateSY1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnUpdateSY1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSettle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnSettle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnReturnItemsHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnReturnItemsHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clearhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clearhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clearbtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clearbtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backgroundfortextbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backgroundfortextbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blockstudent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blockstudent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="searchbarhover.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\searchbarhover.png.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="border1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\border1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnVoidRequestHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnVoidRequestHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnPrintHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnPrintHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSendreqHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnSendreqHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnProceedBeta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnProceedBeta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refreshicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refreshicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSendreq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnSendreq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnConfirmPassHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnConfirmPassHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnHistory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stafficon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stafficon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnConfirmPass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnConfirmPass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deletebtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deletebtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnUpdateSY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnUpdateSY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="studentloginiconhover1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\studentloginiconhover1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnNextForm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnNextForm1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnVoidRequest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnVoidRequest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnConfirmRequestHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnConfirmRequestHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnClearedHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnClearedHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bustudentmessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bustudentmessage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn4thYearDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn4thYearDelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtborder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\txtborder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inventoryiconhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inventoryiconhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refreshiconhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refreshiconhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnRequest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnRequest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnCleared" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnCleared.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scanqrcodebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scanqrcodebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnReturnItems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnReturnItems.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnPrint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnPrint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAddToRequestList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnAddToRequestList.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backToSelectUserType" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backToSelectUserType.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textboxbackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textboxbackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnbackhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnbackhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hoverbackbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hoverbackbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnCancelReq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnCancelReq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnChangepassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnChangepassword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inventoryicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inventoryicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="managerequesticonhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\managerequesticonhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnRequesthover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnRequesthover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnNextForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnNextForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="managerequesticon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\managerequesticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtborder1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\txtborder1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtborder2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\txtborder2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backToSelectUserType1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backToSelectUserType1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exitbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exitbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn1Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn1Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="studentmessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\studentmessage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deletehover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deletehover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightlabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightlabel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSettleHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnSettleHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scanqrcodebg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scanqrcodebg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnDeleteSingleHistoryHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnDeleteSingleHistoryHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="studenticon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\studenticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staffloginicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staffloginicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="studentloginicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\studentloginicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="searchbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\searchbutton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnConfirmRequest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnConfirmRequest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnDeleteMultipleHistoryHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnDeleteMultipleHistoryHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="studentloginiconhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\studentloginiconhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rmlocationbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rmlocationbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staffloginiconhover1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staffloginiconhover1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="returnrequesticon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\returnrequesticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn1stTo4thUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn1stTo4thUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnCancelReqHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnCancelReqHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtborder3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\txtborder3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="studenticon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\studenticon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="returnrequesticonhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\returnrequesticonhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn2Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn2Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staffloginiconhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staffloginiconhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="downTriangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\downTriangle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="searchbutton2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\searchbutton2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updatehover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatehover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="studentloginicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\studentloginicon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="searchbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\searchbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAddToRequestLists" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnAddToRequestLists.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnNextFormHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnNextFormHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refreshicon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refreshicon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftlabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftlabel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn3Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn3Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="studentloginiconhover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\studentloginiconhover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refreshicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refreshicon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSchoolYear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnSchoolYear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnDeleteSingleHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnDeleteSingleHistory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn4Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn4Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
