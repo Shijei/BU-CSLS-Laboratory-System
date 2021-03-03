@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C69F811-BC4B-4F85-93FD-BBAD742B8C45}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>LaboratorySystem.My.MyApplication</StartupObject>
+    <RootNamespace>LaboratorySystem</RootNamespace>
+    <AssemblyName>LaboratorySystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>LaboratorySystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>LaboratorySystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>CSLSIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BasselTech CamCapture">
+      <HintPath>..\BasselTech CamCapture.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagingToolkit.QRCode, Version=1.0.3541.23206, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MessagingToolkit.QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WebCam_Capture">
+      <HintPath>..\WebCam_Capture.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdministratorForm.Designer.vb">
+      <DependentUpon>AdministratorForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdministratorForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministratorLogin.Designer.vb">
+      <DependentUpon>AdministratorLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdministratorLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlacklisForm.Designer.vb">
+      <DependentUpon>BlacklisForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BlacklisForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryForm.Designer.vb">
+      <DependentUpon>HistoryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory.Designer.vb">
+      <DependentUpon>Inventory.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagePendingReturn.Designer.vb">
+      <DependentUpon>ManagePendingReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePendingReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageRequests.Designer.vb">
+      <DependentUpon>ManageRequests.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageRequests.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageStaff.Designer.vb">
+      <DependentUpon>ManageStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageStudents.Designer.vb">
+      <DependentUpon>ManageStudents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageStudents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PeekInventory.Designer.vb">
+      <DependentUpon>PeekInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PeekInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestForm.Designer.vb">
+      <DependentUpon>RequestForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RequestForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectLoginForm.Designer.vb">
+      <DependentUpon>SelectLoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SelectLoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffForm.Designer.vb">
+      <DependentUpon>StaffForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StaffForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffLoginForm.Designer.vb">
+      <DependentUpon>StaffLoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StaffLoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentForm.Designer.vb">
+      <DependentUpon>StudentForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudentForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StuLoginForm.Designer.vb">
+      <DependentUpon>StuLoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StuLoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToReturnForm.Designer.vb">
+      <DependentUpon>ToReturnForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ToReturnForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdministratorForm.resx">
+      <DependentUpon>AdministratorForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministratorLogin.resx">
+      <DependentUpon>AdministratorLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BlacklisForm.resx">
+      <DependentUpon>BlacklisForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryForm.resx">
+      <DependentUpon>HistoryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory.resx">
+      <DependentUpon>Inventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagePendingReturn.resx">
+      <DependentUpon>ManagePendingReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageRequests.resx">
+      <DependentUpon>ManageRequests.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageStaff.resx">
+      <DependentUpon>ManageStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageStudents.resx">
+      <DependentUpon>ManageStudents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PeekInventory.resx">
+      <DependentUpon>PeekInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestForm.resx">
+      <DependentUpon>RequestForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectLoginForm.resx">
+      <DependentUpon>SelectLoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm.resx">
+      <DependentUpon>StaffForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffLoginForm.resx">
+      <DependentUpon>StaffLoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentForm.resx">
+      <DependentUpon>StudentForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StuLoginForm.resx">
+      <DependentUpon>StuLoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToReturnForm.resx">
+      <DependentUpon>ToReturnForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchbutton2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchbutton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rmlocationbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftlabel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightlabel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightlabel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatebtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletebtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clearbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\footerLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bustudentmessage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scanqrcodebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qricon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scanqrcodebg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backToSelectUserType.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backToSelectUserType1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studentmessage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staffloginicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staffloginiconhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studentloginicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studentloginiconhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staffloginiconhover1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studentloginiconhover1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studentloginicon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studentloginiconhover2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundfortextbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textboxbackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnLoginbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnLoginHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\txtborder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\txtborder1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\txtborder2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\txtborder3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\border1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clearhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletehover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatehover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoverbackbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftwelcomebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blockstudent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stafficon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studenticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studenticon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventoryicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\managerequesticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\returnrequesticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventoryiconhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\managerequesticonhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\returnrequesticonhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refreshicon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refreshicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refreshicon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchbarhover.png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refreshiconhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAddToRequestList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAddToRequestLists.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnNextForm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnbackhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnNextForm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnNextFormHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSendreq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSendreqHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnRequest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnRequesthover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnProceedBeta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnReturnItems.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnReturnItemsHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCancelReq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCancelReqHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnConfirmRequest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnConfirmRequestHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSLSIcon.ico" />
+    <None Include="Resources\btn4Hover.png" />
+    <None Include="Resources\btn3Hover.png" />
+    <None Include="Resources\btn2Hover.png" />
+    <None Include="Resources\btn1Hover.png" />
+    <None Include="Resources\btn5thYearDelete.png" />
+    <None Include="Resources\btn4thYearDelete.png" />
+    <None Include="Resources\btn1stTo4thUpdate.png" />
+    <None Include="Resources\btn1stTo3rdUpdate.png" />
+    <None Include="Resources\upTriangle.png" />
+    <None Include="Resources\downTriangle.png" />
+    <None Include="Resources\btnUpdateSY1.png" />
+    <None Include="Resources\btnUpdateSY.png" />
+    <None Include="Resources\btnSchoolYear.png" />
+    <None Include="Resources\btnSettle.png" />
+    <None Include="Resources\btnSettleHover.png" />
+    <None Include="Resources\btnPrint.png" />
+    <None Include="Resources\btnPrintHover.png" />
+    <None Include="Resources\btnConfirmPass.png" />
+    <None Include="Resources\btnConfirmPassHover.png" />
+    <None Include="Resources\btnDeleteMultipleHistoryHover.png" />
+    <None Include="Resources\btnDeleteMultipleHistory.png" />
+    <None Include="Resources\btnDeleteSingleHistoryHover.png" />
+    <None Include="Resources\btnDeleteSingleHistory.png" />
+    <None Include="Resources\btnVoidRequestHover.png" />
+    <None Include="Resources\btnVoidRequest.png" />
+    <None Include="Resources\btnChangepassword.png" />
+    <None Include="Resources\btnHistory.png" />
+    <None Include="Resources\btnClearedHover.png" />
+    <None Include="Resources\btnCleared.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
